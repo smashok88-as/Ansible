@@ -21,7 +21,7 @@
   - name: print variables
     vars:
       course: ansible
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "course is {{ course }}, {{ Trainer }}"
 
  
