@@ -7,6 +7,6 @@
     Trainer: "Ashok"
   tasks:
   - name: print variables
-    ansible.buildtin.debug:
+    ansible.builtin.debug:
       msg: "course is {{ course }}, {{ Trainer }}"
 
