@@ -11,4 +11,3 @@
       course: Ansible
     ansible.builtin.debug:
       msg: "course is {{ course }}, {{ Trainer }}"
-
