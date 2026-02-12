@@ -19,8 +19,8 @@
     Trainer: "Ashok"
   tasks:
 - name: print variables
-    vars:
-      course: ansible
+  vars:
+    course: ansible
     ansible.builtin.debug:
     msg: "course is {{ course }}, {{ Trainer }}"
 
