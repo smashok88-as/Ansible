@@ -5,7 +5,8 @@
     course: "Devops with AWS"
     Duration: "140HRS"
     Trainer: "Ashok"
-tasks:
+  tasks:
   - name: print variables
     ansible.buildtin.debug:
       msg: "course is {{ course }}, {{ Trainer }}"
+
