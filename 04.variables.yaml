@@ -1,11 +1,11 @@
-name: play level veribles
-hosts: local
-connection: local
-vars:
-  course: "Devops with AWS"
-  Duration: "140HRS"
-  Trainer: "Ashok"
+- name: play level veribles
+  hosts: local
+  connection: local
+  vars:
+    course: "Devops with AWS"
+    Duration: "140HRS"
+    Trainer: "Ashok"
 tasks:
-  name: print variables
-  ansible.buildtin.debug:
-    msg: "course is {{ course }}, {{ Trainer }}"
+  - name: print variables
+    ansible.buildtin.debug:
+      msg: "course is {{ course }}, {{ Trainer }}"
