@@ -20,7 +20,7 @@
   tasks:
 - name: print variables
   vars:
-  course: ansible
+    course: ansible
   ansible.builtin.debug:
     msg: "course is {{ course }}, {{ Trainer }}"
 
