@@ -18,10 +18,10 @@
     Duration: "140hrs"
     Trainer: "Ashok"
   tasks:
-- name: print variables
-  vars:
-    course: ansible
-  ansible.builtin.debug:
-    msg: "course is {{ course }}, {{ Trainer }}"
+  - name: print variables
+    vars:
+      course: ansible
+    ansible.builtin.debug:
+      msg: "course is {{ course }}, {{ Trainer }}"
 
  
